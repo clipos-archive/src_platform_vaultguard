@@ -1,0 +1,24 @@
+# CLIP ChangeLog for app-clip/vaultguard
+
+*vaultguard-1.0.2 (27 Sep 2013)
+
+  27 Sep 2013; Hugo Chargois <clipos@ssi.gouv.fr>
+  +vaultguard-1.0.2.ebuild, -vaultguard-1.0.1.ebuild:
+  Fix directory/file creation permissions (umask)
+
+  29 Nov 2012; Vincent Strubel <clipos@ssi.gouv.fr>
+  vaultguard-1.0.1.ebuild:
+  Fix EAPI declaration. 
+
+*vaultguard-1.0.1 (27 Feb 2012)
+
+  27 Feb 2012; Mickaël Salaün <clipos@ssi.gouv.fr>
+  +vaultguard-1.0.1.ebuild, -vaultguard-1.0.0.ebuild:
+  Add extra checks at initialization.
+  Disable debug.
+
+*vaultguard-1.0.0 (23 Feb 2012)
+
+  23 Feb 2012; Mickaël Salaün <clipos@ssi.gouv.fr>
+  +vaultguard-1.0.0.ebuild:
+  Initial import.
